@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <link rel="stylesheet" href="GRID12.css" />
+        <title>12 GRID FRAMEWORK</title>
+    </head>
+
+<h2>
+  Typical 12 column grid based on CSS Grid Layout
+</h2>
+<div class="grid">
+  <div class="grid__item grid__item_item1">
+      <P>JavaScript is a programming language that adds interactivity to your website. This happens in games, in the behavior of responses when buttons are pressed or with data entry on forms; with dynamic styling; with animation, etc. This article helps you get started with JavaScript and furthers your understanding of what is possible. </P>
+  </div>
+  <div class="grid__item grid__item_item2">
+      <P> <b>What is JavaScript? </b> <br>
+        JavaScript ("JS" for short) is a full-fledged dynamic programming language that can add interactivity to a website. It was invented by Brendan Eich (co-founder of the Mozilla project, the Mozilla Foundation, and the Mozilla Corporation).
+        
+        JavaScript is versatile and beginner-friendly. With more experience, you'll be able to create games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more!
+        
+        JavaScript itself is relatively compact, yet very flexible. Developers have written a variety of tools on top of the core JavaScript language, unlocking a vast amount of functionality with minimum effort.  </P></div>
+  <div class="grid__item grid__item_item3">
+      <p>JavaScript is one of the most popular modern web technologies! As your JavaScript skills grow, your websites will enter a new dimension of power and creativity.
+
+        However, getting comfortable with JavaScript is more challenging than getting comfortable with HTML and CSS. You may have to start small, and progress gradually. To begin, let's examine how to add JavaScript to your page for creating a Hello world! example. (Hello world! is the standard for introductory programming examples.) </p>
+  </div>
+  <div class="grid__item grid__item_item4">
+      <p> The heading text changed to Hello world! using JavaScript. You did this by using a function called querySelector() to grab a reference to your heading, and then store it in a variable called myHeading. This is similar to what we did using CSS selectors. When you want to do something to an element, you need to select it first.
+
+        Following that, the code set the value of the myHeading variable's textContent property (which represents the content of the heading) to Hello world!.</p>
+  </div>
+  <div class="grid__item grid__item_item5">
+      <p> <b>Conditionals </b> <br>
+        Conditionals are code structures used to test if an expression returns true or not. A very common form of conditionals is the if ... else statement. For example: <br>
+        
+        let iceCream = 'chocolate';
+        if(iceCream === 'chocolate') {
+          alert('Yay, I love chocolate ice cream!');
+        } else {
+          alert('Awwww, but chocolate is my favorite...');
+        }
+        The expression inside the if( ... ) is the test. This uses the identity operator (as described above) to compare the variable iceCream with the string chocolate to see if the two are equal. If this comparison returns true, the first block of code runs. If the comparison is not true, the second block of code—after the else statement—runs instead</p>
+  </div>
+  <div class="grid__item grid__item_item6">
+    <p> <b> Functions</b><br>
+      Functions are a way of packaging functionality that you wish to reuse. It's possible to define a body of code as a function that executes when you call the function name in your code. This is a good alternative to repeatedly writing the same code. You have already seen some uses of functions previously.</p></div>
+  <div class="grid__item grid__item_item7">
+    <p> These functions, document.querySelector and alert, are built into the browser.
+
+      If you see something which looks like a variable name, but it's followed by parentheses— () —it is likely a function. Functions often take arguments: bits of data they need to do their job. Arguments go inside the parentheses, separated by commas if there is more than one argument.
+      
+      For example, the alert() function makes a pop-up box appear inside the browser window, but we need to give it a string as an argument to tell the function what message to display.
+      
+      You can also define your own functions. In the next example, we create a simple function which takes two numbers as arguments and multiplies them:</p>
+  </div>
+  <div class="grid__item grid__item_item8">
+    <p> <b>Events </b> <br>
+      Real interactivity on a website requires event handlers. These are code structures that listen for activity in the browser, and run code in response. The most obvious example is handling the click event, which is fired by the browser when you click on something with your mouse. To demonstrate this, enter the following into your console, then click on the current webpage:</p></div>
+  <div class="grid__item grid__item_item9">
+    <p> <b> Adding an image changer</b> <br>
+      In this section, you will learn how to use JavaScript and DOM API features to alternate the display of one of two images. This change will happen as a user clicks the displayed image.
+      
+      Choose an image you want to feature on your example site. Ideally, the image will be the same size as the image you added previously, or as close as possible.
+      Save this image in your images folder.
+      Rename the image firefox2.png.
+      Add the JavaScript below to your main.js file. (Also delete your Hello world! JavaScript from the earlier exercise.)</p></div>
+  <div class="grid__item grid__item_item10">
+    <p> Save all files and load index.html in the browser. Now when you click the image, it should change to the other one.
+      This is what happened. You stored a reference to your <img> element in the myImage variable. Next, you made this variable's onclick event handler property equal to a function with no name (an "anonymous" function). So every time this element is clicked:
+      
+      The code retrieves the value of the image's src attribute.
+      The code uses a conditional to check if the src value is equal to the path of the original image:
+      If it is, the code changes the src value to the path of the second image, forcing the other image to be loaded inside the <img> element.
+      If it isn't (meaning it must already have changed), the src value swaps back to the original image path, to the original state.</p>
+  </div>
+  <div class="grid__item grid__item_item11">
+    <p> JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes,</p>
+  </div>
+  <div class="grid__item grid__item_item12">
+    <p> JavaScript is so hard to learn because it's an asynchronous programming language. It's also single-threaded, which means it uses its asynchronous nature in a radically different way than most other programming languages. What do I mean by asynchronous? ... Or we could communicate asynchronously.</p>
+  </div>
+</div>
+
+
+</html> 
